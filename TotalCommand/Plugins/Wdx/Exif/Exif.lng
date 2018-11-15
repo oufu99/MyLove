@@ -1,0 +1,273 @@
+[CHN]
+Width=宽度        
+Height=高度
+ColorDepth=色彩深度
+DateTimeStr=日期时间
+Date=日期
+Time=时间
+DateOriginal=原始日期
+TimeOriginal=原始时间
+DateDigitized=数字化日期
+TimeDigitized=数字化时间
+ComponentsConfiguration=组件配置
+ExifVersion=Exif 版本
+ExposureBiasValue=曝光偏置值
+ExposureProgram=曝光程序
+ExposureTimeFraction=曝光时间分数
+ExposureTimeNr=曝光时间 (Nr)
+Flash=闪光灯
+FNumber=光圈系数
+FocalLength=焦距长度
+ISO=ISO
+LightSource=光源
+Make=制造商
+ApertureValue=光圈值
+MeteringMode=测光模式
+Model=型号
+Orientation=方向
+
+// 新字段
+BitsPerSample=每样本位数
+CompressedBitsPerPixel=压缩后每像素色彩位数
+MaxApertureValue=最大光圈值
+ImageDescription=图像说明
+UserComment=用户注释
+XResolution=X 分辨率
+YResolution=Y 分辨率
+ResolutionUnit=解析度
+Software=软件
+Artist=作者
+ShutterSpeed=快门速度
+YCbCrPositioning=色相定位
+SensingMethod=感光模式
+ExposureMode=曝光模式
+WhiteBalance=白平衡
+DigitalZoomRatio=数字变焦倍率
+FocalLengthIn35mmFilm=35mm 等效焦距
+SceneCaptureType=取景模式
+GainControl=增益控制
+Contrast=对比度
+Saturation=饱和度
+Sharpness=清晰度
+SubjectDistanceRange=对焦距离
+
+// Canon 制造商附注字段
+Canon Macro mode=Canon 微距模式
+Canon Flash mode=Canon 闪光模式
+Canon Continuous drive mode=Canon 连续驱动方式
+Canon Focus Mode=Canon 聚焦模式
+Canon Image size=Canon 图像大小
+Canon Easy shooting mode=Canon 全自动模式
+Canon Digital Zoom=Canon 数字变焦
+Canon Contrast=Canon 对比度
+Canon Saturation=Canon 饱和度
+Canon Sharpness=Canon 清晰度
+Canon ISO Speed=Canon ISO 感光度
+Canon Metering Mode=Canon 测光方式
+Canon Focus Type=Canon 聚焦类型
+Canon AF point selected=Canon AF 点选择
+Canon Exposure mode=Canon 曝光模式
+Canon Flash Activity=Canon 闪光灯状态
+Canon White Balance=Canon 白平衡
+Canon Flash Bias=Canon 闪光灯偏移
+Canon Image type=Canon 图像类型
+Canon Firmware version=Canon 固件版本
+Canon Image number=Canon 图像数字
+Canon Owner name=Canon 所有者名字
+Canon Camera serial number=Canon 相机序列号
+
+//GPS
+GPS Latitude=GPS 纬度
+GPS Longitude=GPS 经度
+GPS Altitude=GPS 高度
+GPS Timestamp=GPS 时间信息
+GPS Direction=GPS 方位
+
+//曝光程序
+unknown=未知
+manual control=手动控制
+normal program=标准程序
+aperture priority=光圈优先
+shutter priority=快门优先
+creative (slow program)=创作模式（慢速）
+action (high-speed)=运动模式（快速）
+portrait mode=肖像模式
+landscape mode=风景模式
+
+//光源
+daylight=日光
+fluorescent=荧光灯
+tungsten=钨丝灯
+flash=闪光灯
+fine weather=晴天
+cloudy weather=阴天
+shade=阴影
+daylight fluorescent=日光荧光灯
+day white fluorescent=日光白色荧光灯
+cool white fluorescent=冷光荧光灯
+white fluorescent=白色荧光灯
+standard light A=标准光源 A
+standard light B=标准光源 B
+standard light C=标准光源 C
+ISO studio tungsten=ISO 工作室钨灯
+other=其他
+
+//方向
+Top left=上左
+Top right=上右
+Bottom right=下右
+Bottom left=下左
+Left top=左上
+Right top=右上
+Right bottom=右下
+Left bottom=左下
+
+//闪光灯
+not fired=关
+fired=开
+forced on=常开
+forced off=常关
+not fired, auto=开，自动
+fired, auto=开，自动
+forced on, red eye=常开，红眼模式
+fired, auto, red eye=开，自动，红眼模式
+
+//测光模式
+average=平均
+center weighted average=中心加权平均
+spot=点测光
+multi-spot=多点
+pattern=分区
+partial=局部
+
+//分辨率
+inch=英寸
+centimeter=厘米
+
+// YCbCrUnits
+centered=居中
+co-sited=共站
+
+//感光模式
+not defined=未定义
+one-chip color area sensor=单片色彩区域传感器
+two-chip color area sensor=双片色彩区域传感器
+three-chip color area sensor=三片色彩区域传感器
+color sequential area sensor=顺序区域色彩传感器
+trilinear sensor=三线传感器
+color sequential linear sensor=线性序列色彩传感器
+
+//曝光模式
+auto exposure=自动曝光
+manual exposure=手动曝光
+auto bracket=自动包围
+
+//白平衡
+auto white balance=自动白平衡
+manual white balance=手动白平衡
+
+//取景
+standard=标准
+landscape=风景
+portrait=肖像
+night scene=夜景
+
+//增益控制
+none=无
+low gain up=弱增益
+high gain up=强增益
+low gain down=弱减少
+high gain down=强减少
+
+//对比度
+normal=正常
+soft=柔和
+hard=锐利
+
+//饱和度
+low saturation=低饱和性
+high saturation=高饱和性
+
+//目标距离
+macro=微距
+close view=近距离
+distant view=远景
+
+//Canon闪光灯模式
+auto=自动
+on=打开
+red-eye reduction=消除红眼
+slow synchro=慢速同步
+auto + red-eye reduction=自动＋消除红眼
+on + red-eye reduction=打开＋消除红眼
+external flash=外接闪光灯
+
+//Canon连拍
+single=单张
+continuous=连拍
+
+//Canon聚焦模式
+One-Shot=单点
+AI Servo=AI 伺服
+AI Focus=AI 聚焦
+Manual Focus=手动聚焦
+
+// CanonImageSize
+Large=大
+Medium=中
+Small=小
+
+//CanonEasyShooting
+Full Auto=全自动
+Fast Shutter=高速快门
+Slow Shutter=慢速快门
+Night=夜景
+B&W=黑白
+Sepia=棕色
+Sports=运动
+Macro/Close-Up=微距/特写镜头
+Pan Focus=超焦距
+
+//Canon数字变焦
+No digital zoom=无数字变焦
+2X=2X
+4X=4X
+
+//CanonCSS
+High=高
+Low=低
+
+//Canon测光模式
+Evaluative=平均
+Partial=局部
+Centre Weighted=中心加权
+
+//Canon聚焦类型
+Close-up=特写
+Locked=锁定
+
+//CanonAF选择
+Auto Selected=自动选择
+Right=居右
+Centre=居中
+Left=居左
+
+//Canon曝光模式
+Easy shooting=全自动
+Program=程序
+Tv-priority=视频优先
+Av-priority=音频优先
+Manual=手动
+A-DEP=景深优先
+
+//Canon闪光灯状态
+Flash did not fire=没有使用闪光灯
+Flash fired=使用闪光灯
+
+//Canon白平衡单位
+Sunny=晴天
+Cloudy=阴天
+Tungsten=钨灯
+Fluorescent=荧光灯
+Flash=闪光灯
+Custom=自定义
