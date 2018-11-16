@@ -268,7 +268,6 @@ RunAsAdmin()
 #Include %A_ScriptDir%\lib\Taskbar.ahk
 #Include %A_ScriptDir%\plugins\plugins.ahk
 
-#Include %A_ScriptDir%\lib\Logger.ahk
 
 ; 用户自定义配置
 #Include *i %A_ScriptDir%\custom.ahk
