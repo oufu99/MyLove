@@ -1,9 +1,21 @@
 ﻿#singleinstance force
 
 ; 注释  !Alt ^Ctrl +Shift  #Win键
+; 如果想结束{Raw}可以直接换行
 
 Hotstring("EndChars","`t")  ; 设置终止符 可以设置多个(){}!`n值之类不用分隔符
 
+; 运行软件开始
+::n::
+run,C:\Program Files (x86)\Notepad++\notepad++.exe
+return
+
+; notepad相关开始
+; 按退出键退出 不行就结束进程
+
+
+; notepad相关结束
+; 运行软件结束
 
 ::lockvim::
 Send, {CapsLock Down}
@@ -60,7 +72,23 @@ Return
 #IfWinActive 用户登录 ‎- Microsoft Edge
 {
 :*:!a::
-   Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
+   Send,admin{Tab}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
+   Send,{Enter}
+Return
+}
+
+
+
+#IfWinActive FTP 连接
+{
+j::
+   Send,{Down}
+Return
+k::
+   Send,{Up}
+Return
+l::
+   Send,{Enter}
 Return
 }
 
@@ -68,5 +96,20 @@ Return
 {
 :*:sa::
    Send,{Raw}WA@@@Wei315#@#WinGG
+Return
+}
+
+#IfWinActive 编辑筛选器
+{
+:*:sa::
+   Send,{Raw}WA@@@Wei315#@#WinGG
+Return
+
+:*:web::
+   Send,{Raw}serp3_test1
+Return
+
+:*:mobile::
+   Send,{Raw}serp3111
 Return
 }

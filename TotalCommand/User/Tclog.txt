@@ -4220,3 +4220,187 @@
 2018/11/16 09:13:37: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
 2018/11/16 09:13:55: 程序关闭 (Aaron/DESKTOP-L604H04)
 2018/11/16 09:17:53: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 09:31:19: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 10:01:43: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 10:19:07: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 10:34:26: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 10:34:58: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 11:19:10: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 11:21:32: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 11:21:42: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 11:22:03: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 11:23:57: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 11:24:04: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 11:30:14: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 13:38:02: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 13:40:32: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 15:59:50: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 16:12:21: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 16:12:34: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 16:13:50: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 16:13:55: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/16 17:49:01: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/16 17:49:17: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 09:00:25: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 09:36:29: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 09:36:50: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 09:36:52: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 10:03:45: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 11:15:41: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 11:24:16: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 11:26:51: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 11:29:20: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 14:41:23: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 15:14:55: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 15:50:07: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 16:06:54: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/19 16:06:56: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/19 17:33:11: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 09:11:23: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 09:18:16: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 09:30:10: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 09:30:29: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 09:55:06: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 09:55:08: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 10:09:03: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 10:31:30: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 10:45:18: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 10:49:00: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 10:50:35: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 10:50:55: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 10:57:39: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 10:58:04: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 11:11:02: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 15:47:59: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 15:48:04: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 16:08:34: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 16:08:35: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 16:22:59: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 16:33:05: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 16:47:13: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 16:53:10: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 17:27:03: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 17:33:53: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 17:34:37: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 17:41:06: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 17:41:24: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 17:46:26: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 19:15:26: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 19:15:27: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/20 19:16:14: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/20 19:24:52: 程序关闭 (Aaron/DESKTOP-L604H04)
+2018/11/21 09:09:43: 程序启动 (Aaron/DESKTOP-L604H04) UTF-8
+2018/11/21 09:18:33: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\CAST.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\CAST.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\upcata.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\upcata.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\suser.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\suser.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\supgrade.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\supgrade.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\stypepolicy.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\stypepolicy.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\stype.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\stype.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\standard.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\standard.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sstockUser.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sstockUser.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sstock.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sstock.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sseting.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sseting.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\srule.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\srule.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sproc.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sproc.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sperson.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sperson.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\spay.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\spay.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sparent.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sparent.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sorder.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sorder.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sjifen.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sjifen.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scustwhere.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scustwhere.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scust.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scust.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scommission_out.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scommission_out.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scommission_in.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scommission_in.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scommission.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scommission.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scata.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scata.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sbrand.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sbrand.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sapp.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sapp.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iyunfei.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iyunfei.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iwx.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iwx.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\itype.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\itype.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\istockproduct.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\istockproduct.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\irule2.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\irule2.sqlpromptsnippet
+2018/11/21 09:18:34: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\irule.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\irule.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iproc.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iproc.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\inewrule.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\inewrule.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iappcode.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iappcode.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iaccount_out.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iaccount_out.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iaccount.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iaccount.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\getParentId.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\getParentId.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\msg.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\msg.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\replace.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\replace.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\for.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\for.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\istockgoods.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\istockgoods.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\cni.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\cni.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\clrp.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\clrp.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\citf.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\citf.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\cdbsnap.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\cdbsnap.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\cdb.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\cdb.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\cci.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\cci.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\bt.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\bt.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\be.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\be.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ateta.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ateta.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\atet.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\atet.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\atdta.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\atdta.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\atdt.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\atdt.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\atdc.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\atdc.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\atd.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\atd.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\atac.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\atac.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ata.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ata.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\at.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\at.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ap.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ap.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\af.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\af.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\yell.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\yell.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\xpfd.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\xpfd.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\w2.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\w2.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\tc.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\tc.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sxa.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sxa.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\st100.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\st100.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ssf.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ssf.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ssales.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ssales.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sqi.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sqi.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\spt.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\spt.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\SPower.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\SPower.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sph.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sph.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sgoodsrelation.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sgoodsrelation.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sf.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sf.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\scf.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\scf.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\san.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\san.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\sactivy.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\sactivy.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\rt.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\rt.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\roj.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\roj.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\rj.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\rj.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ob.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ob.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\neo.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\neo.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\mro.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\mro.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\loj.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\loj.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\lj.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\lj.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\j.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\j.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\is.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\is.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ij.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ij.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ii.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ii.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ifs.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ifs.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\icommision.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\icommision.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\iarea.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\iarea.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\gb.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\gb.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\foj.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\foj.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\fj.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\fj.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\err.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\err.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dv.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dv.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\du.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\du.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dt.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dt.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dp.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dp.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dl.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dl.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\di.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\di.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dfn.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dfn.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\df.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\df.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\desc.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\desc.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dd.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dd.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\dc.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\dc.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\curff.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\curff.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ctr.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ctr.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ctf.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ctf.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\cte.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\cte.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\ct.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\ct.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\csf.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\csf.sqlpromptsnippet
+2018/11/21 09:18:35: 复制: C:\Users\123\AppData\Local\Red Gate\SQL Prompt 7\Snippets\cp.sqlpromptsnippet -> D:\MyConfig\代码段\SQL\cp.sqlpromptsnippet
