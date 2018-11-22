@@ -5,10 +5,13 @@
 
 Hotstring("EndChars","`t")  ; 设置终止符 可以设置多个(){}!`n值之类不用分隔符
 
+
 ; 运行软件开始
 ::n::
 run,C:\Program Files (x86)\Notepad++\notepad++.exe
 return
+
+
 
 ; notepad相关开始
 ; 按退出键退出 不行就结束进程
@@ -49,25 +52,24 @@ Return
 ; 模拟vim操作开始
  
 
-
-#IfWinNotExist, ahk_class SoPY_Comp
 ::dd::
+#IfWinNotExist, ahk_class SoPY_Comp
 Send, {End}{Shift Down}{Home}{Home}{Shift Up}{Delete}{Delete}
 Return
-#IfWinNotExist
+
 
 
 ; 模拟vim操作结束
 
-
-; 密码输入相关
-
+; #IfWinActive 要成对出现不然后面的会触发不了
+:*:!a::
 #IfWinActive 用户登录 - Google Chrome
 {
-:*:!a::
-   Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
-Return
+  Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
+  return
 }
+#IfWinActive
+
 
 #IfWinActive 用户登录 ‎- Microsoft Edge
 {
@@ -76,7 +78,7 @@ Return
    Send,{Enter}
 Return
 }
-
+#IfWinActive
 
 
 #IfWinActive FTP 连接
@@ -91,6 +93,7 @@ l::
    Send,{Enter}
 Return
 }
+#IfWinActive
 
 #IfWinActive 连接到服务器
 {
@@ -98,6 +101,7 @@ Return
    Send,{Raw}WA@@@Wei315#@#WinGG
 Return
 }
+#IfWinActive
 
 #IfWinActive 编辑筛选器
 {
@@ -113,3 +117,67 @@ Return
    Send,{Raw}serp3111
 Return
 }
+#IfWinActive
+
+; 打开米菲
+>^m::
+IfWinExist, MiFei - Microsoft Visual Studio (管理员) ; 激活窗口
+	{
+		IfWinActive, MiFei - Microsoft Visual Studio (管理员) ; 激活窗口
+		{
+			WinMinimize 
+		}
+		else
+		{
+			WinActivate
+		}
+	}
+	else
+	{
+	 Run ,E:\ZPCode\MiFei\MiFei.sln
+	}
+Return
+
+; 打开新版素雅
+>^s::
+IfWinExist, SuYa_V2 - Microsoft Visual Studio (管理员)
+	{
+		IfWinActive, SuYa_V2 - Microsoft Visual Studio (管理员)
+		{
+			WinMinimize 
+		}
+		else
+		{
+			WinActivate
+		}
+	}
+	else
+	{
+	 Run ,E:\ZPCode\SuYa_V2\SuYa_V2.sln
+	}
+Return
+
+
+>^t::
+IfWinExist, SuYa_V2 - Microsoft Visual Studio (管理员)
+	{
+		IfWinActive, SuYa_V2 - Microsoft Visual Studio (管理员)
+		{
+			WinMinimize 
+		}
+		else
+		{
+			WinActivate
+		}
+	}
+	else
+	{
+	 
+	}
+Return
+
+
+
+
+
+
