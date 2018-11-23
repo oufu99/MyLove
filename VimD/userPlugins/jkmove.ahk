@@ -1,70 +1,66 @@
 #singleinstance force
+#MaxHotkeysPerInterval 1000
 Flag=0
 
 :*:j::
-if(Flag=1)
-{
-Send,{Down}
-return
+if(Flag=1){
+	Send,{Down}
+	return
 }
 else
-Send,j
+	Send,j
 return
 
 
 :*:h::
-if(Flag=1)
-{
-Send,{Left}
-return
+if(Flag=1){
+	Send,{Left}
+	return
 }
 else
-Send,h
+	Send,h
 return
 
 :*:k::
-if(Flag=1)
-{
-Send,{Up}
-return
+if(Flag=1){
+	Send,{Up}
+	return
 }
 else
-Send,k
+	Send,k
 return
 
 :*:l::
-if(Flag=1)
-{
-Send,{Right}
-return
+if(Flag=1){
+	Send,{Right}
+	return
 }
 else
-Send,l
+	Send,l
 return
 
 :*:x::
-if(Flag=1)
-{
-Send,{Backspace}
-return
+if(Flag=1){
+	Send,{Backspace}
+	return
 }
 else
-Send,{x}
+	Send,x
 return
 
 ; 开启
-
 ^j::
-Flag=1
+	Flag=1
 return
 
-Esc::
-if(Flag=1)
-{
-Flag=0
-return
+$Esc::
+if(Flag=1){
+	Flag=0
+	return
 }
 else
-send,{Esc}
+	Send,{Escape}
 return
+
+
 

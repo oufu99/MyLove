@@ -5,6 +5,8 @@
 
 Hotstring("EndChars","`t")  ; 设置终止符 可以设置多个(){}!`n值之类不用分隔符
 
+#Include jkmove.ahk
+
 
 ; 运行软件开始
 ::n::
@@ -62,19 +64,21 @@ Return
 ; 模拟vim操作结束
 
 ; #IfWinActive 要成对出现不然后面的会触发不了
-:*:!a::
-#IfWinActive 用户登录 - Google Chrome
-{
-  Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
-  return
-}
-#IfWinActive
+; :*:!a::
+; #IfWinActive 用户登录 - Google Chrome
+; {
+;   Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
+;   return
+; }
+; #IfWinActive
 
 
 #IfWinActive 用户登录 ‎- Microsoft Edge
 {
-:*:!a::
-   Send,admin{Tab}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
+::!a::
+   Send,{Raw}admin
+   Send,{Tab}
+   Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
    Send,{Enter}
 Return
 }
