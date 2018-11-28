@@ -2,7 +2,29 @@
 #MaxHotkeysPerInterval 1000
 Flag=0
 
-:*:j::
+; 开启
+^j::
+if(Flag=1){
+	Flag=0
+	return
+}
+else{
+	Flag=1
+	return
+}
+	Flag=1
+return
+; 退出
+$Esc::
+if(Flag=1){
+	Flag=0
+	return
+}
+else
+	Send,{Escape}
+return
+
+:?*:j::
 if(Flag=1){
 	Send,{Down}
 	return
@@ -12,7 +34,7 @@ else
 return
 
 
-:*:h::
+:?*:h::
 if(Flag=1){
 	Send,{Left}
 	return
@@ -21,7 +43,7 @@ else
 	Send,h
 return
 
-:*:k::
+:?*:k::
 if(Flag=1){
 	Send,{Up}
 	return
@@ -30,7 +52,7 @@ else
 	Send,k
 return
 
-:*:l::
+:?*:l::
 if(Flag=1){
 	Send,{Right}
 	return
@@ -39,7 +61,7 @@ else
 	Send,l
 return
 
-:*:x::
+:?*:x::
 if(Flag=1){
 	Send,{Backspace}
 	return
@@ -48,19 +70,7 @@ else
 	Send,x
 return
 
-; 开启
-^j::
-	Flag=1
-return
 
-$Esc::
-if(Flag=1){
-	Flag=0
-	return
-}
-else
-	Send,{Escape}
-return
 
 
 

@@ -1,48 +1,35 @@
+ï»¿#singleinstance force
 
-#IfWinActive ; è¦æˆå¯¹å‡ºç°ä¸ç„¶åé¢çš„ä¼šè§¦å‘ä¸äº†
-::!a::
-#IfWinActive ç”¨æˆ·ç™»å½• - Google Chrome
+; ĞèÒªÊ¹ÓÃ  ±àÂë=>±àÂë×Ö·û¼¯=>ÖĞÎÄ=>GB2312²Å¿ÉÒÔ   vimµÄºÍËû²»Í¬
+::admin::
+#IfWinActive, ÓÃ»§µÇÂ¼ ?- Microsoft Edge
 {
    Send,{Raw}admin
    Send,{Tab}
    Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
    Send,{Enter}
-}
-#IfWinActive
-
-#IfWinActive ç”¨æˆ·ç™»å½• â€- Microsoft Edge
-{
-::!a::
-   Send,{Raw}admin
-   Send,{Tab}
-   Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
-   Send,{Enter}
 Return
 }
-#IfWinActive
-
-#IfWinActive è¿æ¥åˆ°æœåŠ¡å™¨
+::sa::
+#IfWinActive Á¬½Óµ½·şÎñÆ÷
 {
-:*:sa::
    Send,{Raw}WA@@@Wei315#@#WinGG
    Send,{Enter}
-Return
+   Return
 }
-#IfWinActive
 
-#IfWinActive ç¼–è¾‘ç­›é€‰å™¨
+#IfWinActive Á¬½Óµ½·şÎñÆ÷
 {
-:*:sa::
-   Send,{Raw}WA@@@Wei315#@#WinGG
-   Send,{Enter}
-Return
-
-:*:web::
+::web::
    Send,{Raw}serp3_test1
 Return
-
-:*:mobile::
+}
+#IfWinActive Á¬½Óµ½·şÎñÆ÷
+{
+::mobile::
    Send,{Raw}serp3111
 Return
 }
-#IfWinActive
+
+
+

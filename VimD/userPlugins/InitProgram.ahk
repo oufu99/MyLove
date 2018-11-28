@@ -5,11 +5,11 @@
 
 Hotstring("EndChars","`t")  ; 设置终止符 可以设置多个(){}!`n值之类不用分隔符
 
-#Include jkmove.ahk
-#Include openSoftWare.ahk
-#Include codeInput.ahk
-#Include commonVim.ahk
-#Include TCExtra.ahk
+#Include D:\MyLove\VimD\userPlugins\Vimcommon.ahk
+#Include D:\MyLove\VimD\userPlugins\jkmove.ahk
+#Include D:\MyLove\VimD\userPlugins\openSoftWare.ahk
+#Include D:\MyLove\VimD\userPlugins\codeInput.ahk
+#Include D:\MyLove\VimD\userPlugins\TCExtra.ahk
  
 
 
