@@ -12,7 +12,6 @@ else{
 	Flag=1
 	return
 }
-	Flag=1
 return
 ; 退出
 $Esc::
@@ -70,6 +69,14 @@ else
 	Send,x
 return
 
+:?*:;::
+if(Flag=1){
+	Send,{Right}{Backspace}
+	return
+}
+else
+	Send,;
+return
 
 
 

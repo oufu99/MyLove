@@ -1,4 +1,6 @@
-#IfWinActive FTP 连接
+﻿#singleinstance force
+
+#IfWinActive, FTP 连接
 {
 j::
    Send,{Down}
@@ -10,4 +12,3 @@ l::
    Send,{Enter}
 Return
 }
-#IfWinActive
