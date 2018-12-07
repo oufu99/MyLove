@@ -9,10 +9,7 @@ Hotstring("EndChars","`t")  ; 设置终止符 可以设置多个(){}!`n值之类
 #Include D:\MyLove\VimD\userPlugins\Vimcommon.ahk
 #Include D:\MyLove\VimD\userPlugins\openSoftWare.ahk
 #Include D:\MyLove\VimD\userPlugins\codeInput.ahk
-#Include D:\MyLove\VimD\userPlugins\TCExtra.ahk
-
-
-
+#Include D:\MyLove\VimD\userPlugins\shortCode.ahk
 
 
 

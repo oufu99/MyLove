@@ -10,9 +10,6 @@ Return
    Run, D:\Tools\ScreenCapture\bin\Debug\ScreenCapture.exe
 Return
 
-^Numpad2::
-   run, http://admin.onlyid.cn/login.aspx
-Return
 
 
 ; 打开米菲

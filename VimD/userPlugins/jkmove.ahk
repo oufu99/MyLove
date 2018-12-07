@@ -1,22 +1,22 @@
 #singleinstance force
 #MaxHotkeysPerInterval 1000
-Flag=0
+VimFlag=0
 
 ; 开启
 ^j::
-if(Flag=1){
-	Flag=0
+if(VimFlag=1){
+	VimFlag=0
 	return
 }
 else{
-	Flag=1
+	VimFlag=1
 	return
 }
 return
 ; 退出
 $Esc::
-if(Flag=1){
-	Flag=0
+if(VimFlag=1){
+	VimFlag=0
 	return
 }
 else
@@ -24,53 +24,123 @@ else
 return
 
 :?*:j::
-if(Flag=1){
+if(VimFlag=1){
 	Send,{Down}
 	return
 }
 else
-	Send,j
+{
+	GetKeyState, state, CapsLock, T
+	if state = D
+	{
+		Send,J
+	}
+	else
+	{
+		GetKeyState, state, Shift
+		if state = D
+		Send,J
+		else
+		Send,j
+	}
+}
 return
 
 
 :?*:h::
-if(Flag=1){
+if(VimFlag=1){
 	Send,{Left}
 	return
 }
 else
-	Send,h
+{
+	GetKeyState, state, CapsLock, T
+	if state = D
+	{
+		Send,H
+	}
+	else
+	{
+		GetKeyState, state, Shift
+		if state = D
+		Send,H
+		else
+		Send,h
+	}
+}
 return
 
 :?*:k::
-if(Flag=1){
+if(VimFlag=1){
 	Send,{Up}
 	return
 }
 else
-	Send,k
+{
+	GetKeyState, state, CapsLock, T
+	if state = D
+	{
+		Send,K
+	}
+	else
+	{
+		GetKeyState, state, Shift
+		if state = D
+		Send,K
+		else
+		Send,k
+	}
+}
 return
 
 :?*:l::
-if(Flag=1){
+if(VimFlag=1){
 	Send,{Right}
 	return
 }
 else
-	Send,l
+{
+	GetKeyState, state, CapsLock, T
+	if state = D
+	{
+		Send,L
+	}
+	else
+	{
+		GetKeyState, state, Shift
+		if state = D
+		Send,L
+		else
+		Send,l
+	}
+}
 return
 
 :?*:x::
-if(Flag=1){
+if(VimFlag=1){
 	Send,{Backspace}
 	return
 }
 else
-	Send,x
+{
+	GetKeyState, state, CapsLock, T
+	if state = D
+	{
+		Send,X
+	}
+	else
+	{
+		GetKeyState, state, Shift
+		if state = D
+		Send,X
+		else
+		Send,x
+	}
+}
 return
 
 :?*:;::
-if(Flag=1){
+if(VimFlag=1){
 	Send,{Right}{Backspace}
 	return
 }

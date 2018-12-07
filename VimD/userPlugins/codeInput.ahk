@@ -15,6 +15,8 @@ Return
 :?:!s::
 IfWinActive, 连接到服务器
 {
+	Send,{Raw}sa
+	Send,{Tab}
 	Send,{Raw}WA@@@Wei315#@#WinGG
 	Send,{Enter}
 }
