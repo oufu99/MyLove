@@ -2,6 +2,10 @@
 #MaxHotkeysPerInterval 1000
 VimFlag=0
 
+^u::
+	Send,{j down}
+	return
+
 ; 开启
 ^j::
 if(VimFlag=1){
@@ -24,6 +28,7 @@ else
 return
 
 :?*:j::
+
 if(VimFlag=1){
 	Send,{Down}
 	return
@@ -41,7 +46,7 @@ else
 		if state = D
 		Send,J
 		else
-		Send,j
+		Send,{j down}
 	}
 }
 return
