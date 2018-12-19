@@ -3,7 +3,14 @@
 ; return 要放在If的外面,不然会穿透继续执行
 
 ::!a::
-IfWinActive, 用户登录 ‎- Microsoft Edge
+IfWinActive, 用户登录 ‎- Microsoft Edge 
+{
+	Send,{Raw}admin
+	Send,{Tab}
+	Send,{Raw}PT_DSe/XycOhQW_Q8Cu5tIZg_sg
+	Send,{Enter}	
+}
+IfWinActive, 用户登录 - Google Chrome
 {
 	Send,{Raw}admin
 	Send,{Tab}
