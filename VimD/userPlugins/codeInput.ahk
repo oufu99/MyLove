@@ -4,43 +4,20 @@
 
 
 ::!s::
-IfWinActive, 连接到服务器
-{
 	Send,{Raw}sa
 	Send,{Tab}
 	Send,{Raw}WA@@@Wei315#@#WinGG
-}
-else
-{
-	Send,{Raw}!s
-}
 return
 
-::web::
-IfWinActive, 编辑筛选器
-{
-	Send,{Raw}serp3_test1
-}
-else
-{
-	Send,{Raw}web
-}
+; 因为是热串所以不怎么用担心误按  如果有后面遇见了再说
+::!sw::
+ Send,{Raw}serp3_test1
 Return
 
-::mobile::
-IfWinActive, 编辑筛选器
-{
-    Send,{Raw}serp3111
-}
-else
-{
-	Send,{Raw}mobile
-}
+::!sm::
+Send,{Raw}serp3111
 Return
 
-#IfWinActive 用户登录 ‎- Microsoft Edge 
-::!a::
-#IfWinActive 用户登录 - Google Chrome 
 ::!a::
 	Send,{Raw}admin
 	Send,{Tab}
