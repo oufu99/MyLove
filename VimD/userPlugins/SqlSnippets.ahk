@@ -5,8 +5,20 @@
 
 #If WinActive("ahk_exe navicat.exe")
 {
-  ::ssf1::
+  ::scust::
 	Send,{Raw}select * from tb_customer_%ManuId%	
-	Return 
+	Return
+
+  ::suser::
+	Send,{Raw}select * from tb_user where  manufacturer_id=%ManuId%	
+	Return
+  
+  
+  ::ir1::
+    clipboard = {Raw}INSERT INTO `ymt.ws_sys`.`tb_rule_mapping_class`(`ManuId`, `ClassName`, `Json`, `filter_keyword`, `new_url`) VALUES ( %ManuId%, 'pcRedirect', NULL, '/agent/pay', '/youzuan/agent/pay');   
+	clipboard=%clipboard%
+	Send,%clipboard%
+	Return
+  
 }
 
