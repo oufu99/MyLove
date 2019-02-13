@@ -6,6 +6,7 @@ Return
    Run, C:\Users\123\Downloads
 Return
 
+
 >+g::
    Run, www.5566.net
 Return
