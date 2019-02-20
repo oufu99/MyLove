@@ -17,6 +17,7 @@ k::Up
 h::Left
 l::Right
 x::Backspace
+`;::Delete
 esc::VimFlag:=!VimFlag
 a::VimFlag:=!VimFlag
 #IF
