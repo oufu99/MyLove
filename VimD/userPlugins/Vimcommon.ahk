@@ -5,3 +5,11 @@ return
 :?:jw::
 Send,{Shift Down}{Ctrl Down}{Left}{Shift Up}{Ctrl Up}
 return
+
+:?:ik::
+Send,(){Left}
+return
+
+:?:ii::
+Send,""{Left}
+return
