@@ -1,3 +1,8 @@
+
+
+ 
+; Ctrl:^   Shift:+   Alt:!  Êó±êÓÒ¼ü:RButton
+
 ^Numpad0::
    Run, D:\Tools\OpenMyTools\bin\Debug\OpenMyTools.exe
 Return
@@ -7,6 +12,14 @@ Return
 Return
 
 
->+g::
+^+g::
    Run, www.5566.net
 Return
+
+^+w::
+   Run, C:\Program Files (x86)\WizNote\Wiz.exe
+Return
+
+
+
+ 
