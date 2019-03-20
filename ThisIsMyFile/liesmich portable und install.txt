@@ -1,0 +1,18 @@
+Standardmäßig wird die ThisIsMyFile.ini im Ordner %APPDATA%/ThisIsMyFile erstellt.
+
+Für den mobilen Einsatz erstellen Sie im ThisIsMyFile Arbeitsverzeichnis die ThisIsMyFile.ini.
+
+Oder führen Sie eine portable_install aus!
+
+
+Programmargumente (Befehlszeile)
+-?uninstall
+-?install
+-?portable_install
+
+
+Umbenennen:
+ThisIsMyFile.exe 
+ThisIsMyFile_Install.exe 
+ThisIsMyFile_Portable_Install.exe
+

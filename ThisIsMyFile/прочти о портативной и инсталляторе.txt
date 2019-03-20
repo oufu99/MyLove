@@ -1,0 +1,18 @@
+По умолчанию ThisIsMyFile.ini будет создан в папке %APPDATA%/ThisIsMyFile
+
+Для портативного использования создайте или скопируйте ThisIsMyFile.ini в папку программы ThisIsMyFile
+
+Или запустите portable_install!
+
+параметры программы (командная строка):
+
+-?uninstall
+-?install
+-?portable_install
+
+
+Переименовать:
+
+ThisIsMyFile.exe                  
+ThisIsMyFile_Install.exe 
+ThisIsMyFile_Portable_Install.exe
