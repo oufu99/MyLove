@@ -3,6 +3,8 @@
 
 VimFlag=0
 
+#If !WinActive("ahk_exe devenv.exe")
+{
 ^j::
 VimFlag:=1
 return
@@ -21,3 +23,4 @@ x::Backspace
 esc::VimFlag:=!VimFlag
 a::VimFlag:=!VimFlag
 #IF
+}
