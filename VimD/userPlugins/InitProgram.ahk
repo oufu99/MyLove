@@ -11,7 +11,6 @@ Hotstring("EndChars","`t")  ; 设置终止符 可以设置多个(){}!`n值之类
 #Include D:\MyLove\VimD\userPlugins\CodeInput.ahk
 #Include D:\MyLove\VimD\userPlugins\ShortCode.ahk
 #Include D:\MyLove\VimD\userPlugins\VsOperate.ahk
-#Include D:\MyLove\VimD\userPlugins\OpenQQ.ahk
 
 
 
