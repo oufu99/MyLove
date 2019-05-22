@@ -5,11 +5,8 @@ VimFlag=0
 
 #If !WinActive("ahk_exe devenv.exe")
 {
-^j::
-VimFlag:=1
-return
 
-:*:jj::
+:*?:jj::
 VimFlag:=1
 return
 
@@ -18,9 +15,10 @@ j::Down
 k::Up
 h::Left
 l::Right
-x::Backspace
-`;::Delete
+d::Backspace
+x::Delete
 esc::VimFlag:=!VimFlag
 a::VimFlag:=!VimFlag
+i::VimFlag:=!VimFlag
 #IF
 }
