@@ -6,9 +6,10 @@ VimFlag=0
 #If !WinActive("ahk_exe devenv.exe")
 {
 
-:*?:jj::
+:*:jj::
 VimFlag:=1
 return
+
 
 #IF VimFlag
 j::Down
