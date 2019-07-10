@@ -1,15 +1,11 @@
 #singleinstance force
 #MaxHotkeysPerInterval 1000
 
-VimFlag=0
 OldStr=Hello world{!}
 PrevStr=""
 
-#If !WinActive("ahk_exe devenv.exe")
-{
 
-:*:jj::
-VimFlag:=1
+:*:as::
 OldStr=%clipboard%
 Send,{Shift Down}{Left}{Shift Up}{Ctrl Down}c{Ctrl Up}
 PrevStr=%clipboard%
@@ -20,18 +16,8 @@ clipboard =%OldStr%
 Send,{Backspace}
 return
 }
+clipboard =%OldStr%
 return
 
 
-#IF VimFlag
-j::Down
-k::Up
-h::Left
-l::Right
-d::Delete
-x::Backspace
-esc::VimFlag:=!VimFlag
-a::VimFlag:=!VimFlag
-i::VimFlag:=!VimFlag
-#IF
-}
+ 
