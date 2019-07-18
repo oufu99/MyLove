@@ -30,6 +30,8 @@ h::Left
 l::Right
 d::Delete
 x::Backspace
+e::End
+b::Home
 esc::VimFlag:=!VimFlag
 a::VimFlag:=!VimFlag
 i::VimFlag:=!VimFlag
