@@ -2,20 +2,8 @@
 
 ; return 要放在If的外面,不然会穿透继续执行
 
-:?:dt::
-IfWinActive, Windows PowerShell
-{
-	Send,dotnet{Space}
-	return
-}
-IfWinActive, ahk_exe cmd.exe
-{
-	Send,dotnet{Space}
-	return
-}
-else{
-Send,{Raw}dt
-}
+:*:dtr::
+Send,dotnet{Space}run{Space}
 Return
 
 
