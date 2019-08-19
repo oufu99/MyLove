@@ -2,8 +2,8 @@
 
 ; return 要放在If的外面,不然会穿透继续执行
 
-:*:dtr::
-Send,dotnet{Space}run{Space}
+:?:dt::
+Send,dotnet{Space}
 Return
 
 

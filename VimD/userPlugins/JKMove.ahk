@@ -5,7 +5,7 @@ VimFlag=0
 OldStr=Hello world{!}
 PrevStr=""
 
-#If !WinActive("ahk_exe devenv.exe")
+#If !WinActive("ahk_exe devenv.exe") and !WinActive("ahk_exe DOSBox.exe")
 {
 
 :*:jj::
@@ -28,12 +28,13 @@ j::Down
 k::Up
 h::Left
 l::Right
-d::Delete
-x::Backspace
+x::Delete
+d::Backspace
 e::End
 b::Home
 esc::VimFlag:=!VimFlag
 a::VimFlag:=!VimFlag
 i::VimFlag:=!VimFlag
+Shift::VimFlag:=!VimFlag
 #IF
 }

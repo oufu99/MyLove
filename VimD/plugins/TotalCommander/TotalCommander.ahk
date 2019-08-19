@@ -174,12 +174,12 @@
     vim.mode("normal", "TTOTAL_CMD")
 
     ;复制/移动到右侧 f取file的意思 filecopy
-    vim.map("fc", "<cm_CopyOtherpanel>", "TTOTAL_CMD")
-    vim.map("fx", "<cm_MoveOnly>", "TTOTAL_CMD")
+    vim.map("fc", "<TC_CopyUseQueues>", "TTOTAL_CMD")
+    vim.map("fx", "<TC_MoveUseQueues>", "TTOTAL_CMD")
 
     ;使用队列复制/移动到右侧 q-queue, fcq会影响对fc的使用，改用fqc/fqx的方式
-    vim.map("fqc", "<TC_CopyUseQueues>", "TTOTAL_CMD")
-    vim.map("fqx", "<TC_MoveUseQueues>", "TTOTAL_CMD")
+    vim.map("fqc", "<cm_CopyOtherpanel>", "TTOTAL_CMD")
+    vim.map("fqx", "<cm_MoveOnly>", "TTOTAL_CMD")
 
     ;ff复制到剪切板 fz剪切到剪切板 fv粘贴
     vim.map("ff", "<cm_CopyToClipboard>", "TTOTAL_CMD")

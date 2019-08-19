@@ -1,7 +1,8 @@
 [Buttonbar]
-Buttoncount=5
+Buttoncount=6
 button1=wcmicons.dll,6
 cmd1=em_openAllSoft
+iconic1=0
 button2=""C:\Program Files (x86)\Notepad++\notepad++.exe""
 cmd2=""C:\Program Files (x86)\Notepad++\notepad++.exe""
 iconic2=0
@@ -14,3 +15,5 @@ iconic4=0
 button5=D:\MyLove\TotalCommand\MyIco\Toolbox.ico
 cmd5=D:\Tools\OpenMyTools\bin\Debug\OpenMyTools.exe
 iconic5=0
+button6=D:\MyLove\TotalCommand\MyIco\同时操作两边文件夹.ico
+cmd6=cm_SyncChangeDir
