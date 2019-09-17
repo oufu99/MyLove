@@ -1,7 +1,7 @@
 {
 "configs" : [
   {
-"server" : "23.105.197.61",
+"server" : "23.105.197.76",
 "server_port" : 7789,
 "password" : "koukoupw",
 "method" : "aes-256-cfb",
