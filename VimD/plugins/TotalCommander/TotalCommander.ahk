@@ -321,6 +321,8 @@
     vim.map(".", "<Repeat>", "TTOTAL_CMD")
 		
 
+		
+		
     vim.BeforeActionDo("TC_BeforeActionDo", "TTOTAL_CMD")
 
     ;; 默认按键完
@@ -2554,6 +2556,10 @@ return
 ;<cm_MkDir>: >>新建文件夹{{{2
 <cm_MkDir>:
     SendPos(907)
+return
+;<cm_EditNewFile>: >>新建文本文件并打开{{{2
+<cm_EditNewFile>:
+    SendPos(2931)
 return
 ;<cm_Delete>: >>删除{{{2
 <cm_Delete>:

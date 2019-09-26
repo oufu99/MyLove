@@ -1,9 +1,9 @@
 {
 "configs" : [
   {
-"server" : "23.105.197.76",
-"server_port" : 7789,
-"password" : "koukoupw",
+"server" : "c17s3.jamjams.net",
+"server_port" : 31570,
+"password" : "Gw7GvPLSa8",
 "method" : "aes-256-cfb",
 "remarks" : ""}
 
