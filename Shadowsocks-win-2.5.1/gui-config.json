@@ -1,7 +1,28 @@
 {
 "configs" : [
   {
-"server" : "c17s3.jamjams.net",
+"server" : "c17s2.jamjams.net",
+"server_port" : 31570,
+"password" : "Gw7GvPLSa8",
+"method" : "aes-256-cfb",
+"remarks" : ""}
+,
+  {
+"server" : "c17s4.jamjams.net",
+"server_port" : 31570,
+"password" : "Gw7GvPLSa8",
+"method" : "aes-256-cfb",
+"remarks" : ""}
+,
+  {
+"server" : "c17s1.jamjams.net",
+"server_port" : 31570,
+"password" : "Gw7GvPLSa8",
+"method" : "aes-256-cfb",
+"remarks" : ""}
+,
+  {
+"server" : "c17s5.jamjams.net",
 "server_port" : 31570,
 "password" : "Gw7GvPLSa8",
 "method" : "aes-256-cfb",
@@ -9,7 +30,7 @@
 
 ],
 "strategy" : null,
-"index" : 0,
+"index" : 2,
 "global" : false,
 "enabled" : true,
 "shareOverLan" : false,
