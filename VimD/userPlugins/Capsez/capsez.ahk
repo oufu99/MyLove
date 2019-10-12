@@ -1,7 +1,7 @@
 ;CapsLock增强脚本，例子
 ;by Ez
-;v190721 添加在tc里面中键点击打开目录
-;v190904 更新暂停等热键，直接把AutoHotkey.exe改名为capsez.exe
+
+; 我的指导思想 Caps操作移动 删除  ;操作打开文件 Tab操作选中
 
 ;管理员权限代码，放在文件开头 {{{1
 Loop, %0%
@@ -805,7 +805,6 @@ Escape & d:: SendInput,{Delete}
 Escape & .:: AltTab
 Escape & ,:: ShiftAltTab
 
-Escape & `;:: WinClose A
 
 ;enter 回车窗口最大化
 ;Escape & Enter:: WinMaximize A
@@ -878,17 +877,7 @@ CapsLock & b::
 	GoSub,Sub_KeyClick123
 return
 
-CapsLock & n::
-	GV_KeyClickAction1 := "SendInput,{PgDn}"
-	GV_KeyClickAction2 := "SendInput,^{PgDn}"
-	GoSub,Sub_KeyClick123
-return
-
-CapsLock & m::
-	GV_KeyClickAction1 := "SendInput,{PgUp}"
-	GV_KeyClickAction2 := "SendInput,^{PgUp}"
-	GoSub,Sub_KeyClick123
-return
+ 
 
 ;************** u,i单击双击$ **************
 
@@ -927,23 +916,42 @@ return
 CapsLock & g:: SendInput,{Blind}^w
 CapsLock & r:: SendInput,{Blind}^r
 
-CapsLock & o:: send,{Blind}^+{Tab}
-CapsLock & p:: send,{Blind}^{Tab}
+CapsLock & n:: send,{Blind}^+{Tab}
+CapsLock & m:: send,{Blind}^{Tab}
 
 ;CapsLock & y:: send,{AppsKey}
 CapsLock & y:: Send {Click Right}
-CapsLock & d:: SendInput,{Delete}
 
 CapsLock & .:: AltTab
 CapsLock & ,:: ShiftAltTab
 
-CapsLock & `;:: WinClose A
+
 
 ;enter 回车窗口最大化
 CapsLock & Enter:: GoSub,Sub_MaxRestore
 ;CapsLock & Space:: WinMinimize A
 CapsLock & Space:: send,{Backspace}
 
+
+;************** 自定义开始 **************
+
+; 删除了  CapsLock & `;
+; 调整了  直接在这文件中搜索 调用任务栏相关程序快捷键
+; ;+空格 改成了BackSpace
+; ;+z 去掉了 免得冲突Vs的按键
+; 删除了 CapsLock & n:: 把CapsLock & o p 改成了n m
+
+
+;************** 代码开始 **************
+
+CapsLock & d::SendInput,{Delete}
+CapsLock & '::SendInput,""{Left}
+`; & d::SendInput,{End}+{Home}{Backspace}
+`; & b::SendInput,{Home}
+`; & e::SendInput,{End}
+
+
+;************** 自定义结束 **************
 ^!#r:: 
 	;<==关闭hint模式键
 	;down:=(down) ? 0 : 1
@@ -987,13 +995,9 @@ Return
 `; & n:: SendInput,{Blind}{PgDn}
 `; & m:: SendInput,{Blind}{PgUp}
 
-`; & Space:: SendInput,{Delete}
+`; & Space:: SendInput,{Backspace}
+`; & s:: SendInput,{End}{Shift Down}{Home}{Shift Up}
 
-`; & z::
-	GV_KeyClickAction1 := "SendInput,{Backspace}"
-	GV_KeyClickAction2 := "SendInput,+{Home}{Backspace}"
-	GoSub,Sub_KeyClick123
-return
 
 `; & x::
 	GV_KeyClickAction1 := "SendInput,{Delete}"
@@ -1007,11 +1011,7 @@ return
 	GoSub,Sub_KeyClick123
 return
 
-`; & b::
-	GV_KeyClickAction1 := "SendInput,^x"
-	GV_KeyClickAction2 := "SendInput,^{Home}^+{End}^x"
-	GoSub,Sub_KeyClick123
-return
+
 
 `; & v::
 	GV_KeyClickAction1 := "SendInput,^v"
@@ -1028,25 +1028,11 @@ return
 return
 
 
-;搜索选中的文本
-`; & s::GoSub,Sub_SearchSelectTxt
-Sub_SearchSelectTxt:
-	clip:=
-	clip:=clipboard
-	If RegExMatch(clip, "^\d{6}$"){
-		Out := gv_url_tdx_f10 . clip . gv_url_html
-		run,%Out%
-	}
-	else{
-		run,http://www.baidu.com/s?ie=utf-8&wd=%clip%
-	}
-return
+
 
 ;清空复制粘贴
-`; & d::SendInput,{Home}+{End}{Delete}
+
 `; & a::SendInput,^{Home}^+{End}{Delete}
-
-
 
 ;粘贴并转到,多数浏览器和tc中都可用
 `; & u:: send,^t!d^v{Enter}
@@ -1362,15 +1348,6 @@ w:: SendInput,^w
 #IfWinActive
 
 
-;在任务栏上滚轮调整音量 {{{2
-#If MouseIsOver("ahk_class Shell_TrayWnd")
-WheelUp::Send {Volume_Up}
-WheelDown::Send {Volume_Down}
-#If
-MouseIsOver(WinTitle) {
-    MouseGetPos,,, Win
-    return WinExist(WinTitle . " ahk_id " . Win)
-}
 
 ;totalcmd中特殊的按住左键点右键移动
 ;#IfWinNotActive ahk_class TTOTAL_CMD
@@ -1461,34 +1438,19 @@ return
 
 ;************** 各程序快捷键或功能 ************** {{{1
 ;调用任务栏相关程序快捷键 {{{2
-`; & Tab::
-	;Totalcmd
+
+
+`; & q::
 	send,#1
 return
 
-`; & Capslock::
-	;Vim
+`; & w::
 	send,#2
 return
 
-`; & q::
-	send,#3
-return
-
-`; & w::
-	send,#4
-return
-
-`; & e::
-	send,#5
-return
-
-`; & r::
-	send,#6
-return
-
+ 
 `; & t::
-	send,#7
+	Run, C:\Program Files (x86)\Notepad++\notepad++.exe
 return
 
 
@@ -1636,13 +1598,7 @@ TcSendPos(Number)
 	!;::ControlClick, EXCEL<1
 }
 
-;word中 {{{2
-;word2013: ahk_class OpusApp
-#IfWinActive ahk_exe winword.exe
-{
-	CapsLock & o:: send,^+{F6}
-	CapsLock & p:: send,^{F6}
-}
+ 
 
 ;快速目录切换 {{{2
 ;收藏的目录，
