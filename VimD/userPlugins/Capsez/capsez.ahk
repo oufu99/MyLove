@@ -382,7 +382,7 @@ return
 ;************** 按住ESC拖动$    **************
 
 
-;************** 自定义方法^ ************** {{{1
+;************** Ez的方法^ ************** {{{1
 GF_GetSysVar(sys_var_name)
 {
 	EnvGet, sv,% sys_var_name
@@ -599,7 +599,7 @@ OpenClipURLS:
 		}
 	}
 return
-;************** 自定义方法$ **************
+;************** Ez的方法$ **************
 
 
 ;************** Youdao_网络翻译^ ********* {{{1
@@ -865,7 +865,6 @@ CapsLock & l:: SendInput,{Blind}{Right}
 ;CapsLock & n:: SendInput,{Blind}{PgDn}
 ;CapsLock & m:: SendInput,{Blind}{PgUp}
 
-CapsLock & w:: SendInput,{Blind}^{Right}
 
 CapsLock & e::
 	GV_KeyClickAction1 := "SendInput,{End}"
@@ -945,16 +944,41 @@ CapsLock & Space:: send,{Backspace}
 
 
 ;************** 自定义开始 **************
-
-CapsLock & d::SendInput,{Delete}
+CapsLock & `;::SendInput,{Right}
+CapsLock & d::SendInput,{End}+{Home}{Backspace}
 CapsLock & '::SendInput,""{Left}
+
 `; & d::SendInput,{End}+{Home}{Backspace}
 `; & b::SendInput,{Home}
 `; & e::SendInput,{End}
 CapsLock & <::SendInput,`<`>{Left}
 ; 大括号很特殊 需要这么输出才行
 CapsLock & [::Send, {{}{}}{Left}
+CapsLock & x::SendInput,`<`>{Left}
+CapsLock & w::SendInput,{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
 
+
+; Vs之前的现在改为通用
+:*:ik::(){Left}
+:*:ii::""{Left}
+:*:jw::{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
+ 
+
+Tab & h:: SendInput,{Blind}{Left}
+Tab & j:: SendInput,{Blind}{Down}
+Tab & l:: SendInput,{Blind}{Right}
+Tab & k:: SendInput,{Blind}{Up}
+
+
+; Vs中生效
+#IfWinActive, ahk_exe devenv.exe
+
+`; & f::SendInput public{Space}{Space}void{Space}{Space}Func(){Enter}{{}{Enter}{Enter}{}}{Up}
+
+`; & z::SendInput {Ctrl Down}{Shift Down}{Alt Down}{F12}{Ctrl Up}{Shift Up}{Alt Up}
+`; & t::SendInput {Ctrl Down}{Shift Down}{Alt Down}{F11}{Ctrl Up}{Shift Up}{Alt Up}
+
+#IfWinActive
 
 ;************** 自定义结束 **************
 ^!#r:: 
@@ -993,6 +1017,8 @@ Return
 
 
 ;************** 分号;相关 ************** {{{2
+
+
 `; & j:: SendInput,{Blind}{Down}
 `; & k:: SendInput,{Blind}{Up}
 `; & h:: SendInput,{Blind}{Left}
@@ -1004,11 +1030,6 @@ Return
 `; & s:: SendInput,{End}{Shift Down}{Home}{Shift Up}
 
 
-`; & x::
-	GV_KeyClickAction1 := "SendInput,{Delete}"
-	GV_KeyClickAction2 := "SendInput,+{End}{Delete}"
-	GoSub,Sub_KeyClick123
-return
 
 `; & c::
 	GV_KeyClickAction1 := "SendInput,^c"
@@ -1188,6 +1209,8 @@ Tab & d:: SendInput,{Blind}{Right}
 Tab & q:: SendInput,{Blind}{PgUp}
 Tab & f:: SendInput,{Blind}{PgDn}
 
+
+
 ;对应任务栏上固定的前5个程序快速切换
 Tab & 1:: send,#1
 Tab & 2:: send,#2
@@ -1198,19 +1221,9 @@ Tab & 5:: send,#5
 ;常用的三个按键
 Tab & r:: SendInput,{Blind}{Del}
 Tab & e:: SendInput,{Blind}{Enter}
-Tab & space:: SendInput,{Blind}{Backspace}
 
-;右手模式，和caps一样，随便按哪一个都行，自由发挥吧
-Tab & j:: SendInput,{Blind}{Down}
-Tab & k:: SendInput,{Blind}{Up}
-Tab & h:: SendInput,{Blind}{Left}
-Tab & l:: SendInput,{Blind}{Right}
-Tab & n:: SendInput,{Blind}{PgDn}
-Tab & m:: SendInput,{Blind}{PgUp}
-Tab & u:: SendInput,{Blind}{End}
-Tab & i:: SendInput,{Blind}{Home}
-Tab & o:: SendInput,{Blind}{PgUp}
-Tab & p:: SendInput,{Blind}{PgDn}
+
+
 
 
 ;重要的alttab菜单
@@ -1449,14 +1462,14 @@ return
 	send,#1
 return
 
-`; & w::
-	send,#2
-return
+; `; & w::
+; 	send,#2
+; return
 
  
-`; & t::
-	Run, C:\Program Files (x86)\Notepad++\notepad++.exe
-return
+; `; & t::
+; 	Run, C:\Program Files (x86)\Notepad++\notepad++.exe
+; return
 
 
 #IfWinActive ahk_class TXGuiFoundation       ;QQ,Tim
