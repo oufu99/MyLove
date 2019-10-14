@@ -959,6 +959,7 @@ CapsLock & w::SendInput,{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
 
 
 ; Vs之前的现在改为通用
+::dd::{End}+{Home}{Backspace}
 :*:ik::(){Left}
 :*:ii::""{Left}
 :*:jw::{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
