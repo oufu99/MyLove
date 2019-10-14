@@ -1,3 +1,5 @@
+#singleinstance force
+
 ;CapsLock增强脚本，例子
 ;by Ez
 
@@ -942,13 +944,16 @@ CapsLock & Space:: send,{Backspace}
 ; 删除了 CapsLock & n:: 把CapsLock & o p 改成了n m
 
 
-;************** 代码开始 **************
+;************** 自定义开始 **************
 
 CapsLock & d::SendInput,{Delete}
 CapsLock & '::SendInput,""{Left}
 `; & d::SendInput,{End}+{Home}{Backspace}
 `; & b::SendInput,{Home}
 `; & e::SendInput,{End}
+CapsLock & <::SendInput,`<`>{Left}
+; 大括号很特殊 需要这么输出才行
+CapsLock & [::Send, {{}{}}{Left}
 
 
 ;************** 自定义结束 **************
