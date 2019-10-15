@@ -943,7 +943,7 @@ CapsLock & Space:: send,{Backspace}
 ; 删除了 CapsLock & n:: 把CapsLock & o p 改成了n m
 
 
-;************** 自定义开始 **************
+;************** 代码开始 **************
 CapsLock & `;::SendInput,{Right}
 CapsLock & d::SendInput,{End}+{Home}{Backspace}
 CapsLock & '::SendInput,""{Left}
@@ -976,8 +976,9 @@ Tab & k:: SendInput,{Blind}{Up}
 
 `; & f::SendInput public{Space}{Space}void{Space}{Space}Func(){Enter}{{}{Enter}{Enter}{}}{Up}
 
-`; & z::SendInput {Ctrl Down}{Shift Down}{Alt Down}{F12}{Ctrl Up}{Shift Up}{Alt Up}
-`; & t::SendInput {Ctrl Down}{Shift Down}{Alt Down}{F11}{Ctrl Up}{Shift Up}{Alt Up}
+`; & z::SendInput, {Ctrl Down}{Shift Down}{Alt Down}{F12}{Ctrl Up}{Shift Up}{Alt Up}
+`; & t::SendInput, {Ctrl Down}{Shift Down}{Alt Down}{F11}{Ctrl Up}{Shift Up}{Alt Up}
+
 
 #IfWinActive
 
