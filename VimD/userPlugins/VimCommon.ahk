@@ -11,4 +11,3 @@ return
 Send,""{Left}
 return
 
-:?:dd::SendInput,{Home}{Shift Down}{End}{Shift Up}

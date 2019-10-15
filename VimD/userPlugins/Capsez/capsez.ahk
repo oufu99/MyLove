@@ -989,7 +989,7 @@ Tab & k:: SendInput,{Blind}{Up}
 	Reload    ;<==用重启脚本来修复已知缺陷：需要按两次F2才能再开启hint by Zz
 return
 
-;将caps替换为esc
+;将caps替换为esc  恢复Caps功能 
 CapsLock::
 	suspend permit
 	SendInput,{Escape}
