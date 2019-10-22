@@ -7,7 +7,3 @@ return
 Send,(){Left}
 return
 
-:?:ii::
-Send,""{Left}
-return
-

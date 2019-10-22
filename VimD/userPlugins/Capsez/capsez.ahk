@@ -914,7 +914,6 @@ CapsLock & c::
 	GoSub,Sub_ClipAppend
 return
 
-CapsLock & g:: SendInput,{Blind}^w
 CapsLock & r:: SendInput,{Blind}^r
 
 CapsLock & n:: send,{Blind}^+{Tab}
@@ -956,12 +955,14 @@ CapsLock & <::SendInput,`<`>{Left}
 CapsLock & [::Send, {{}{}}{Left}
 CapsLock & x::SendInput,`<`>{Left}
 CapsLock & w::SendInput,{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
-
+CapsLock & t::
+ Run, C:\Program Files (x86)\Notepad++\notepad++.exe
+Return
 
 ; Vs之前的现在改为通用
-::dd::{End}+{Home}{Backspace}
-:*:ik::(){Left}
-:*:ii::""{Left}
+ 
+
+CapsLock & i::SendInput,""{Left}
 :*:jw::{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
  
 
@@ -991,8 +992,8 @@ return
 
 ;将caps替换为esc  恢复Caps功能 
 CapsLock::
-	suspend permit
-	SendInput,{Escape}
+;	suspend permit
+;	SendInput,{Escape}
 return
 
 ;暂停热键，可以再按恢复
@@ -1295,7 +1296,7 @@ return
 ;ScrollLock::
 CapsLock & /::
 Escape & /::
-	GV_ToggleKeyMode := !GV_ToggleKeyMode
+;	GV_ToggleKeyMode := !GV_ToggleKeyMode
 return
 
 #If GV_ToggleKeyMode=1
