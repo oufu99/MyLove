@@ -944,7 +944,7 @@ CapsLock & Space:: send,{Backspace}
 
 ;************** ´úÂë¿ªÊ¼ **************
 CapsLock & `;::SendInput,{Right}
-CapsLock & d::SendInput,{End}+{Home}{Backspace}
+CapsLock & d::SendInput,{End}+{Home{Backspace}{Backspace}
 CapsLock & '::SendInput,""{Left}
 
 `; & d::SendInput,{End}+{Home}{Backspace}
