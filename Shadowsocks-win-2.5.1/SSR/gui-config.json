@@ -52,7 +52,7 @@
 			"udp_over_tcp" : false
 		},
 		{
-			"remarks" : "线路-C [全网|通用]",
+			"remarks" : "线路-C [移动|联通]",
 			"id" : "0C2E106CFA1C69EE7B04542E4014EAB2",
 			"server" : "bdebdc35.ss-up.com",
 			"server_port" : 33266,
@@ -63,7 +63,7 @@
 			"protocolparam" : "",
 			"obfs" : "http_simple",
 			"obfsparam" : "update.microsoft.com",
-			"remarks_base64" : "57q_6LevLUMgW-WFqOe9kXzpgJrnlKhd",
+			"remarks_base64" : "57q_6LevLUMgW-enu-WKqHzogZTpgJpd",
 			"group" : "互联网加速",
 			"enable" : true,
 			"udp_over_tcp" : false
@@ -86,7 +86,7 @@
 			"udp_over_tcp" : false
 		},
 		{
-			"remarks" : "线路-E [全网|通用]",
+			"remarks" : "线路-E [移动|联通]",
 			"id" : "5CA52E23BFBF4200B7037A71218EC2E2",
 			"server" : "4c4c937b.ss-up.com",
 			"server_port" : 33266,
@@ -97,7 +97,7 @@
 			"protocolparam" : "",
 			"obfs" : "http_simple",
 			"obfsparam" : "update.microsoft.com",
-			"remarks_base64" : "57q_6LevLUUgW-WFqOe9kXzpgJrnlKhd",
+			"remarks_base64" : "57q_6LevLUUgW-enu-WKqHzogZTpgJpd",
 			"group" : "互联网加速",
 			"enable" : true,
 			"udp_over_tcp" : false
