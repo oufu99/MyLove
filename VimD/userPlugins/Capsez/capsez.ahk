@@ -943,8 +943,9 @@ CapsLock & Space:: send,{Backspace}
 
 
 ;************** 代码开始 **************
+
+CapsLock & d::SendInput,{End}{Shift Down}{Home}{Shift Up}{Backspace}{Home}{Backspace}
 CapsLock & `;::SendInput,{Right}
-CapsLock & d::SendInput,{End}+{Home{Backspace}{Backspace}
 CapsLock & '::SendInput,""{Left}
 
 `; & d::SendInput,{End}+{Home}{Backspace}
@@ -953,10 +954,16 @@ CapsLock & '::SendInput,""{Left}
 CapsLock & <::SendInput,`<`>{Left}
 ; 大括号很特殊 需要这么输出才行
 CapsLock & [::Send, {{}{}}{Left}
+CapsLock & (::Send, (){Left}
 CapsLock & x::SendInput,`<`>{Left}
 CapsLock & w::SendInput,{Ctrl Down}{Left}{Shift Down}{Right}{Shift Up}{Ctrl Up}
+
 CapsLock & t::
- Run, C:\Program Files (x86)\Notepad++\notepad++.exe
+IfWinExist, Notepad++
+    WinActivate ; 使用前面找到的窗口
+else
+   Run, C:\Program Files (x86)\Notepad++\notepad++.exe
+   WinActivate ; 
 Return
 
 ; Vs之前的现在改为通用
