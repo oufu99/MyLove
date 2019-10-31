@@ -4,7 +4,11 @@
 		"totalDownloadBytes" : 2204060849
 	},
 	"3bd7858d.ss-up.com" : {
-		"totalUploadBytes" : 4703847,
-		"totalDownloadBytes" : 20820352
+		"totalUploadBytes" : 80614558,
+		"totalDownloadBytes" : 125523181
+	},
+	"a4380923.ss-up.com" : {
+		"totalUploadBytes" : 15066,
+		"totalDownloadBytes" : 42502
 	}
 }

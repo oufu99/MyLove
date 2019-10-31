@@ -115,7 +115,7 @@
 	"randomInGroup" : false,
 	"TTL" : 0,
 	"connectTimeout" : 5,
-	"proxyRuleMode" : 0,
+	"proxyRuleMode" : 2,
 	"proxyEnable" : false,
 	"pacDirectGoProxy" : false,
 	"proxyType" : 0,
