@@ -15,6 +15,5 @@ Hotstring("EndChars","`t ")  ; 设置终止符 可以设置多个(){}!`n值之�
 #Include D:\Common\VimD\userPlugins\Capsez\capsez.ahk
 ; #Include D:\Common\VimD\userPlugins\InoreaderFold.ahk
 #Include D:\MyLove\AHK\MyLove.ahk
-#Include D:\MyLove\AHK\OpenMyLoveQQ.ahk
 
 
