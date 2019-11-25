@@ -7,7 +7,6 @@ Hotstring("EndChars","`t ")  ; 设置终止符 可以设置多个(){}!`n值之�
 
 
 ; #Include D:\Common\VimD\userPlugins\jkmove.ahk
-#Include D:\Common\VimD\userPlugins\VimCommon.ahk
 #Include D:\Common\VimD\userPlugins\OpenSoftWare.ahk
 ;#Include D:\Common\VimD\userPlugins\CodeInput.ahk
 #Include D:\Common\VimD\userPlugins\ShortCode.ahk
