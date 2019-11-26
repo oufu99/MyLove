@@ -12,7 +12,11 @@
 		"totalDownloadBytes" : 42502
 	},
 	"4f009211.ss-up.com" : {
-		"totalUploadBytes" : 21278645,
-		"totalDownloadBytes" : 156832124
+		"totalUploadBytes" : 26777227,
+		"totalDownloadBytes" : 184226433
+	},
+	"b1920ee0.ss-up.com" : {
+		"totalUploadBytes" : 1577905,
+		"totalDownloadBytes" : 9768370
 	}
 }
