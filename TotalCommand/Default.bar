@@ -1,16 +1,10 @@
 [Buttonbar]
-Buttoncount=5
-button1=""C:\Program Files (x86)\Notepad++\notepad++.exe""
-cmd1=""C:\Program Files (x86)\Notepad++\notepad++.exe""
-iconic1=0
-button2=%windir%\system32\calc.exe
-cmd2=%windir%\system32\calc.exe
+Buttoncount=3
+button1=%windir%\system32\calc.exe
+cmd1=%windir%\system32\calc.exe
+button2=D:\MyLove\TotalCommand\MyIco\Toolbox.ico
+cmd2=em_appwiz
 iconic2=0
-button3=""C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe""
-cmd3=""C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe""
+button3=D:\MyLove\TotalCommand\MyIco\同时操作两边文件夹.ico
+cmd3=cm_CommandBrowser
 iconic3=0
-button4=D:\MyLove\TotalCommand\MyIco\Toolbox.ico
-cmd4=D:\Tools\OpenMyTools\bin\Debug\OpenMyTools.exe
-iconic4=0
-button5=D:\MyLove\TotalCommand\MyIco\同时操作两边文件夹.ico
-cmd5=cm_SyncChangeDir
