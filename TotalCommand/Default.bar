@@ -2,9 +2,7 @@
 Buttoncount=3
 button1=%windir%\system32\calc.exe
 cmd1=%windir%\system32\calc.exe
-button2=D:\MyLove\TotalCommand\MyIco\Toolbox.ico
+button2=D:\MyLove\TotalCommand\MyIco\添加删除程序.ico
 cmd2=em_appwiz
-iconic2=0
-button3=D:\MyLove\TotalCommand\MyIco\同时操作两边文件夹.ico
+button3=D:\MyLove\TotalCommand\MyIco\查询快捷键.ico
 cmd3=cm_CommandBrowser
-iconic3=0

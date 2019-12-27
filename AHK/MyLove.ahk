@@ -22,7 +22,20 @@ CapsLock & t::
 	   Run, C:\Program Files\Notepad++\notepad++.exe
 	   WinActivate ; 
 	Return
+CapsLock & c::
+       ; 判断是否在TC中运行
 
+	   selected := ExplorerInfo(3)
+	    if(selected="")
+		{
+		  Run,cmd,C:\
+		}
+		else
+		{
+		  Run,cmd, %selected%
+		}
+	   
+	Return
 ; 打开TC开始 ========
 #If WinActive("ahk_class CabinetWClass") or WinActive("ahk_class ExploreWClass")
 	!w::
@@ -46,7 +59,7 @@ CapsLock & t::
 		selected := ExplorerInfo(1)
 	    run, D:\MyLove\TotalCommand\Totalcmd64.exe /T /O /P=R /S /A /R=%selected%
 	return
-	w::
+	^w::
 		selected := ExplorerInfo(2)
 		if(selected="")
 		{
