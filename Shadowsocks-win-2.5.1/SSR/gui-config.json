@@ -1,7 +1,7 @@
 {
 	"configs" : [
 		{
-			"remarks" : "有效时间 [2019-12-25]",
+			"remarks" : "有效时间 [2020-03-25]",
 			"id" : "10CCCF4FB207AC5F4AD2FA3B8AFDCDCE",
 			"server" : "0.0.0.1",
 			"server_port" : 1,
@@ -12,7 +12,7 @@
 			"protocolparam" : "",
 			"obfs" : "plain",
 			"obfsparam" : "",
-			"remarks_base64" : "5pyJ5pWI5pe26Ze0IFsyMDE5LTEyLTI1XQ",
+			"remarks_base64" : "5pyJ5pWI5pe26Ze0IFsyMDIwLTAzLTI1XQ",
 			"group" : "互联网加速",
 			"enable" : true,
 			"udp_over_tcp" : false
