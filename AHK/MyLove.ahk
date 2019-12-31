@@ -22,6 +22,7 @@ CapsLock & t::
 	   Run, C:\Program Files\Notepad++\notepad++.exe
 	   WinActivate ; 
 	Return
+	
 CapsLock & c::
        ; 判断是否在TC中运行
 
@@ -53,6 +54,7 @@ CapsLock & c::
 		run, %NotePadPath% %selected%
 		 
 	return
+	
 ;桌面
 #If WinActive("ahk_class Progman") or WinActive("ahk_class WorkerW")
 	!w::
