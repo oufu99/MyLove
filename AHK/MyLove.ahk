@@ -21,9 +21,9 @@ CapsLock & t::
 	else
 	   Run, C:\Program Files\Notepad++\notepad++.exe
 	   WinActivate ; 
-	Return
+	return
 	
-CapsLock & c::
+^+c::
        ; 判断是否在TC中运行
 
 	   selected := ExplorerInfo(3)
@@ -35,8 +35,8 @@ CapsLock & c::
 		{
 		  Run,cmd, %selected%
 		}
-	   
-	Return
+	return
+	
 ; 打开TC开始 ========
 #If WinActive("ahk_class CabinetWClass") or WinActive("ahk_class ExploreWClass")
 	!w::
