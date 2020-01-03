@@ -36,7 +36,16 @@ CapsLock & t::
 		  Run,cmd, %selected%
 		}
 	return
-	
+^+f::
+    ; 打开为知笔记
+	IfWinExist, WizNoteMainFrame
+		WinActivate ; 使用前面找到的窗口
+	else
+	   Run, D:\software\WizNote\Wiz.exe
+	   WinActivate ; 
+	return
+	   
+	return
 ; 打开TC开始 ========
 #If WinActive("ahk_class CabinetWClass") or WinActive("ahk_class ExploreWClass")
 	!w::
