@@ -7,8 +7,9 @@ SetDefaultMouseSpeed,0
 ; ----------------------------------------------------------------------------------
 ; 下面给出变量定义
 ; ----------------------------------------------------------------------------------
-	NotePadPath = "C:\Program Files\Notepad++\notepad++.exe"
-	TCPath="D:\MyLove\TotalCommand\Totalcmd64.exe"
+	NotePadPath := "C:\Program Files\Notepad++\notepad++.exe"
+	TCPath:="D:\MyLove\TotalCommand\Totalcmd64.exe"
+	WizPath:="D:\software\WizNote\Wiz.exe"
 Return
 
 ; ----------------------------------------------------------------------------------
@@ -19,10 +20,18 @@ CapsLock & t::
 	IfWinExist, Notepad++
 		WinActivate ; 使用前面找到的窗口
 	else
-	   Run, C:\Program Files\Notepad++\notepad++.exe
+	   Run, %NotePadPath%
 	   WinActivate ; 
 	return
 	
+`; & Tab:: 
+IfWinExist, TTOTAL_CMD
+		WinActivate ; 使用前面找到的窗口
+	else
+	   Run, %TCPath%
+	   WinActivate
+return
+
 ^+c::
        ; 判断是否在TC中运行
 
@@ -36,16 +45,7 @@ CapsLock & t::
 		  Run,cmd, %selected%
 		}
 	return
-^+f::
-    ; 打开为知笔记
-	IfWinExist, WizNoteMainFrame
-		WinActivate ; 使用前面找到的窗口
-	else
-	   Run, D:\software\WizNote\Wiz.exe
-	   WinActivate ; 
-	return
-	   
-	return
+
 ; 打开TC开始 ========
 #If WinActive("ahk_class CabinetWClass") or WinActive("ahk_class ExploreWClass")
 	!w::
