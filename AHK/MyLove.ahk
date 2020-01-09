@@ -15,7 +15,7 @@ global chromePath:="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 global adblockPath:="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/options.html"
 global screePoint:="1356,547"
 
-#Include D:\Common\CommonAHK\Capsez\DiffPathCommonAHK.ahk
+#Include D:\Common\CommonAHK\Capsez\AaronAHK\DiffPathCommonAHK.ahk
 
 
 
