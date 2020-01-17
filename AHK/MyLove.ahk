@@ -19,6 +19,8 @@ global screePoint:="1356,547"
 #Include D:\Common\CommonAHK\Capsez\capsez.ahk
 
 
+; 重启我的代码
+$~#Esc::Run,D:\MyLove\AHK\MyLove.ahk
 
 
  
