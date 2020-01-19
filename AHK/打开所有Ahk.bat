@@ -6,10 +6,6 @@ cd /d %~dp0
 
 
 :: 两个::是注释
-start "" "D:\Common\VimD\vimd.exe"
-:: vid有点问题先关闭再打开
-taskkill /f /im vimd.exe
-start "" "D:\Common\VimD\vimd.exe"
-
 start "" "D:\MyLove\AHK\MyLove.ahk"
+start "" "D:\Common\CommonAHK\Capsez\AaronAHK\ThirdAhk.ahk"
 exit
