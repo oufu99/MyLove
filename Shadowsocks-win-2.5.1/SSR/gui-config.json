@@ -18,42 +18,8 @@
 			"udp_over_tcp" : false
 		},
 		{
-			"remarks" : "线路-B [电信|联通]",
-			"id" : "039E7CDD4A3EAACBD8BEAF2982FAA348",
-			"server" : "b1920ee0.ss-up.com",
-			"server_port" : 443,
-			"server_udp_port" : 0,
-			"password" : "ss-up.com",
-			"method" : "chacha20",
-			"protocol" : "auth_chain_a",
-			"protocolparam" : "33266:eaBmuX",
-			"obfs" : "tls1.2_ticket_auth",
-			"obfsparam" : "b1920ee0.ss-up.com",
-			"remarks_base64" : "57q_6LevLUIgW-eUteS_oXzogZTpgJpd",
-			"group" : "互联网加速",
-			"enable" : true,
-			"udp_over_tcp" : false
-		},
-		{
-			"remarks" : "线路-D [电信|联通]",
-			"id" : "27E610AB856D1B7DBC4A2BBC351513CC",
-			"server" : "a4380923.ss-up.com",
-			"server_port" : 443,
-			"server_udp_port" : 0,
-			"password" : "ss-up.com",
-			"method" : "chacha20",
-			"protocol" : "auth_chain_a",
-			"protocolparam" : "33266:eaBmuX",
-			"obfs" : "tls1.2_ticket_auth",
-			"obfsparam" : "a4380923.ss-up.com",
-			"remarks_base64" : "57q_6LevLUQgW-eUteS_oXzogZTpgJpd",
-			"group" : "互联网加速",
-			"enable" : true,
-			"udp_over_tcp" : false
-		},
-		{
 			"remarks" : "线路-A [电信|联通]",
-			"id" : "0A9299587D4C764D1F864ECD4BC1CCBC",
+			"id" : "6A0D3A37507F27096A3902E5B994CD23",
 			"server" : "9d8ae3cd.ss-up.com",
 			"server_port" : 443,
 			"server_udp_port" : 0,
@@ -66,11 +32,28 @@
 			"remarks_base64" : "57q_6LevLUEgW-eUteS_oXzogZTpgJpd",
 			"group" : "互联网加速",
 			"enable" : true,
-			"udp_over_tcp" : false
+			"udp_over_tcp" : true
+		},
+		{
+			"remarks" : "线路-B [电信|联通]",
+			"id" : "D106EB2A8182CF8E814FC362092F5FF4",
+			"server" : "b1920ee0.ss-up.com",
+			"server_port" : 443,
+			"server_udp_port" : 0,
+			"password" : "ss-up.com",
+			"method" : "chacha20",
+			"protocol" : "auth_chain_a",
+			"protocolparam" : "33266:eaBmuX",
+			"obfs" : "tls1.2_ticket_auth",
+			"obfsparam" : "b1920ee0.ss-up.com",
+			"remarks_base64" : "57q_6LevLUIgW-eUteS_oXzogZTpgJpd",
+			"group" : "互联网加速",
+			"enable" : true,
+			"udp_over_tcp" : true
 		},
 		{
 			"remarks" : "线路-C [移动|联通]",
-			"id" : "D5513040EA26DFB8458A3486DCF6AF99",
+			"id" : "E27AD74B5864F2D66DF8327B72A5D4AB",
 			"server" : "91adb2fd.ss-up.com",
 			"server_port" : 443,
 			"server_udp_port" : 0,
@@ -83,11 +66,28 @@
 			"remarks_base64" : "57q_6LevLUMgW-enu-WKqHzogZTpgJpd",
 			"group" : "互联网加速",
 			"enable" : true,
-			"udp_over_tcp" : false
+			"udp_over_tcp" : true
+		},
+		{
+			"remarks" : "线路-D [电信|联通]",
+			"id" : "636A70F66B06EBA3BCC5150D1E460A64",
+			"server" : "a4380923.ss-up.com",
+			"server_port" : 443,
+			"server_udp_port" : 0,
+			"password" : "ss-up.com",
+			"method" : "chacha20",
+			"protocol" : "auth_chain_a",
+			"protocolparam" : "33266:eaBmuX",
+			"obfs" : "tls1.2_ticket_auth",
+			"obfsparam" : "a4380923.ss-up.com",
+			"remarks_base64" : "57q_6LevLUQgW-eUteS_oXzogZTpgJpd",
+			"group" : "互联网加速",
+			"enable" : true,
+			"udp_over_tcp" : true
 		},
 		{
 			"remarks" : "线路-E [移动|联通]",
-			"id" : "699A28376E202EE7ADE57E48824200B2",
+			"id" : "6B8AD02145485AABC193E78C3CAB70A6",
 			"server" : "4c4c937b.ss-up.com",
 			"server_port" : 8443,
 			"server_udp_port" : 0,
@@ -100,10 +100,10 @@
 			"remarks_base64" : "57q_6LevLUUgW-enu-WKqHzogZTpgJpd",
 			"group" : "互联网加速",
 			"enable" : true,
-			"udp_over_tcp" : false
+			"udp_over_tcp" : true
 		}
 	],
-	"index" : 2,
+	"index" : 5,
 	"random" : false,
 	"sysProxyMode" : 2,
 	"shareOverLan" : false,
